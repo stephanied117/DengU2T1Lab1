@@ -32,7 +32,6 @@ public class RectangleRunner {
         plot2.setWidth(75);
         plot3.setWidth(75);
 
-
         getLength = plot1.getLength();
         System.out.println("Plot 1 Length: " + getLength);
         getWidth = plot1.getWidth();
@@ -57,6 +56,8 @@ public class RectangleRunner {
         System.out.println("Plot 3 Area: " + calcArea3);
 
         System.out.println("These three plots require " + (calcArea1 + calcArea2 + calcArea3) + " square feet of seed.");
+
+
     }
 }
 
